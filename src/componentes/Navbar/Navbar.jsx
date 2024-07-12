@@ -1,6 +1,7 @@
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./styles/index.css";
 import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -32,19 +33,13 @@ function Navbar() {
             <span className="navbar-text">
               <ul className="navbar-nav me-auto m-2 mb-2">
                 <li className="nav-item pe-5">
-                  <a className="nav-link active" aria-current="page" href="/">
-                    Início
-                  </a>
+                <Link className="nav-link active" to='/'>Inicio</Link>
                 </li>
                 <li className="nav-item pe-5">
-                  <a className="nav-link active" aria-current="page" href="/sobre">
-                    Sobre
-                  </a>
+                <Link className="nav-link active" to='/sobre'>Sobre</Link>
                 </li>
                 <li className="nav-item pe-5">
-                <a className="nav-link active" aria-current="page" href="/services">
-                    Serviços
-                  </a>
+                  <Link className="nav-link active" to='/servicos'>Serviços</Link>
                 </li>
                 <li className="nav-item pe-5">
                   <a className="nav-link active" aria-current="page" href="#footer">
