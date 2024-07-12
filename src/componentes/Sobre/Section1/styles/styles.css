@@ -1,0 +1,39 @@
+.sobres1 {
+  height: auto;
+  min-height: 100vh;
+  background-color: #0E0D0C;
+  color: white;
+}
+
+.sobres1_titlediv {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.sobres1_title {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.sobres1_fundadoradiv {
+  display: inline-flex;
+  margin-left: 117px;
+  margin-top: 30px;
+  justify-content: left;
+}
+
+.sobres1_fundadoratext {
+  width: 690px;
+  font-size: 24.5px;
+}
+
+.sobres1_container {
+  display: flex;
+}
+
+.sobres1_fundadoraImage {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10rem;
+}

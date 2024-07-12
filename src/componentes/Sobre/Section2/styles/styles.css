@@ -1,0 +1,35 @@
+.sobres2 {
+  height: auto;
+  min-height: 100vh;
+
+  background-color: #100F0D;
+  color: white;
+}
+
+.sobres2_titlediv {
+  display: flex;
+  justify-content: left;
+  padding-top: 30px;
+  padding-left: 117px;
+}
+
+.sobres2_title {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.sobres2_container {
+  padding-left: 117px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.sobres2_text {
+  width: 680px;
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.sobres2_list {
+  padding-top: 10px;
+}

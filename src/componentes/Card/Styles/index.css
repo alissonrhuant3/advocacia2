@@ -1,0 +1,41 @@
+.containerGrid_card {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 250px;
+    height: 380px;
+    justify-content: center;
+    background-color: #1F1B17;
+    border-radius: 8px;
+    padding: 0;
+
+    transition: all ease 0.2s;
+}
+
+.containerGrid_card:hover {
+    transform: scale(1.15);
+}
+
+.containerGrid_card_icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.containerGrid_card_icon_titulo {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 24px;
+}
+
+.containerGrid_card_descricao {
+    display: flex;
+    color: white;
+    margin-left: 18px;
+    width: 214px;
+    height: 165px;
+    text-align: start;
+    font-size: 20px;
+}
+

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sedan:ital@0;1&display=swap');
+
+.servicos3 {
+  height: auto;
+  min-height: 40vh;
+
+  background-color: #100F0D;
+  color: #fff;
+}
+
+.servicos3_Plan {
+  color: #88A6B7;
+}

@@ -1,0 +1,23 @@
+.section2 {
+    height: auto;
+    min-height: 1081px;
+    background-color: #0E0D0C;
+}
+
+.containerGrid {
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: left;
+}
+
+.section2Titulo {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #fff;
+}
+
+#section2titulo {
+    margin-top: 35px;
+}

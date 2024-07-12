@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sectionFooter {
+  height: auto;
+  min-height: 85vh;
+  background-color: #100F0D;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+
+  background-color: #9F8C44;
+  height: 170px;
+  padding: 10px;
+}
+
+/* Footer - Imagens & Redes Sociais */
+
+.fInstagram {
+  margin-top: 0;
+}
+
+.footerImg {
+  margin-left: 25px;
+  width: 120px;
+}
+
+.footerRedeDiv {
+  margin-top: 17px;
+  margin-left: 15px;
+}
+
+.footerRedePng {
+  margin: 0 13px 0 54px;
+  width: 30px;
+}
+
+.footerRedeText {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+/* Fim - Footer (Î) */
+
+/* Footer - Linha */
+
+.footerLine {
+  width: 1.5px;
+  height: 157px;
+
+  background-color: white;
+  align-self: center;
+
+  margin: 0 25px 0 100px;
+}
+
+/* Fim - Footer Linha */
+
+/* Footer Links */
+
+.footerLinkFirst {
+  margin: 0;
+}
+
+.footerLink {
+  display: flex;
+  text-decoration: none;
+  color: #0f0f0f;
+  margin-top: 15px;
+}
+
+.footerList {
+  font-size: 22px;
+}
+
+/* Fim - Footer Links */
+
+/* Footer Creditos */
+
+.footerCreditos {
+  display: flex;
+  align-items: center;
+}
+
+.computerPng {
+  margin-left: 30px;
+  width: 42px;
+  height: 42px;
+}
+
+.footerCreditosText {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/* Fim - Footer Créditos */
+
+/* Section Footer - Titulo */
+
+.footerTitle {
+  font-family: "Rosarivo", cursive;
+  color: white;
+
+  justify-content: center;
+  display: flex;
+
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footerTitleLineOne {
+  color: #BD805C;
+}
+
+/* Fim Section Footer - Titulo */
+
+/* Section Footer - Inputs */
+
+::placeholder {
+  color: white;
+}
+
+.footerInput {
+  margin-top: 2rem;
+  background-color: transparent;
+  outline: none;
+  
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 300px;
+}
+
+.footerInputsRow {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.footerTextarea::placeholder {
+  text-align: center;
+}
+
+.footerTextarea {
+  margin-top: 4rem;
+  width: 500px;
+  height: 5.6rem;
+  resize: none;
+}
+
+.footerButton {
+  border: 1.5px solid #f1f1f1;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  justify-self: center;
+
+  padding: 5px 15px;
+  margin-top: 3rem;
+
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+  
+.footerButton:hover {
+  color: #0f0f0f;
+  background-color: #f1f1f1;
+}

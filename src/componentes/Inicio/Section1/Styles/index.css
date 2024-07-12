@@ -1,0 +1,92 @@
+.sectionPai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/Frente_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.sectionPai__tituloesubtitulo{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+}
+
+.sectionPai__tituloesubtitulo p, h3 {
+    color: rgb(255, 255, 255);
+}
+
+.sectionPai__tituloesubtitulo p {
+    font-size: 24px;
+}
+
+.sectionPai__tituloesubtitulo h3 {
+    font-size: 51px;
+    color: white;
+}
+
+.sectionPai__formulario_formulario {
+    background: rgba(162.56, 145.09, 79.25, 0.40);
+    border-radius: 10px;
+    width: 375px;
+    height: 462px;
+    margin: -15px;
+}
+
+.sectionPai__formulario_borda {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+.inputs::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inputs {
+    background: rgba(255, 255, 255, 0.027);
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+.doisInputs {
+    display: flex;
+    margin-left: 24.5px;
+    column-gap: 3.5rem;
+    margin-top: 54px;
+}
+
+.inputs_ {
+    width: 136px;
+}
+
+#nome {
+    height: 36px;
+    margin-top: 54px;
+    margin-left: 24px;
+    width: 329px;
+}
+
+.inputTextArea {
+    width: 20.5rem;
+    margin-top: 50px;
+    margin-left: 24px;
+    resize: none;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    width: 171px;
+    height: 41px;
+    border-radius: 12px;
+    margin-left: 6.7rem;
+    margin-top: 3rem;
+    background-color: #100f0d36;
+}

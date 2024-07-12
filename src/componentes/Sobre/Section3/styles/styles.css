@@ -1,0 +1,41 @@
+.sobres3 {
+  height: auto;
+  min-height: 100vh;
+
+  color: white;
+  background-color: #0E0D0C;
+}
+
+.sobres3_titlediv {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.sobres3_title {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.sobres3_container {
+  display: flex;
+  padding-left: 117px;
+  margin-top: 30px;
+}
+
+.sobres3_pergunta {
+  display: flex;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 13.5px;
+}
+
+.sobres3_text {
+  width: 570px;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.sobres3_image {
+  margin-left: 280px;
+}

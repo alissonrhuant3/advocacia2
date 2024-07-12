@@ -1,0 +1,39 @@
+.section4 {
+  height: auto;
+  min-height: 70vh !important;
+  background-color: #1F1B17;
+  color: white;
+  justify-content: center;
+}
+
+.section4_titlediv {
+  display: flex;
+  justify-content: center;
+}
+
+.section4_title {
+  width: 820px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.section4_row {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: -50px;
+  justify-content: center;
+  gap: 90px;
+}
+
+.section4_component {
+  font-size: 25px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.section4_separator {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  margin-top: 20px;
+}

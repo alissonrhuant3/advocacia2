@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+section {
+  height: auto;
+}
+
+.servicos_title {
+  font-family: "Sedan SC", serif;
+  font-size: 32px;
+}
+
+.servicos_container {
+  display: flex;
+
+  align-items: center;
+  margin-left: 150px;
+}
+
+.servicos_service {
+  margin-top: 35px;
+}
+
+.servicosAssessoria {
+  font-size: 22px;
+  font-family: "Snippet", sans-serif;
+
+  padding-left: 12px;
+}
+
+.servicosPlan {
+  margin-top: -20px;
+  font-size: 60px;
+  font-family: "Sedan", serif;
+}
+
+.servicosPrice {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.servicosPriceMonth {
+  font-size: 15px;
+}
+
+.servicos_rightComponents {
+  margin: 40px 0 20px 20rem;
+}
+
+.servicos_element {
+  font-family: "Sedan", serif;
+  font-size: 22px;
+}
