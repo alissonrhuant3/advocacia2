@@ -9,16 +9,16 @@ export default function Servicos4() {
 
       <div className="servicos4_listDiv">
         <ul className="servicos4_list">
-          <li className="servicos4_element" >Consultoria - R$ 400,00</li>
-          <li className="servicos4_element" >Elaboração de Contrato - R$ 900,00 (varia a depender da complexidade)</li>
-          <li className="servicos4_element" >Análise de contrato - R$ 200,00 a R$ 500,00 (a depender da complexidade)</li>
-          <li className="servicos4_element" >Elaboração de acordos e propostas - R$ 350,00</li>
-          <li className="servicos4_element" >Registro de Marca - R$ 1.500 a R$ 5.000,00</li>
-          <li className="servicos4_element" >Notificação Extrajudicial - R$ 400,00</li>
-          <li className="servicos4_element" >Contrato Social - R$ 1.000,00</li>
-          <li className="servicos4_element" >Recuperação de contas - A partir de R$ 2.500,00</li>
-          <li className="servicos4_element" >Demais ações - a consultar</li>
-          <li className="servicos4_element" >Demais serviços - a consultar</li>
+          <li className="servicos4_element" >Consultoria </li>
+          <li className="servicos4_element" >Elaboração de Contrato </li>
+          <li className="servicos4_element" >Análise de contrato </li>
+          <li className="servicos4_element" >Elaboração de acordos e propostas </li>
+          <li className="servicos4_element" >Registro de Marca </li>
+          <li className="servicos4_element" >Notificação Extrajudicial </li>
+          <li className="servicos4_element" >Contrato Social </li>
+          <li className="servicos4_element" >Recuperação de contas </li>
+          <li className="servicos4_element" >Demais ações </li>
+          <li className="servicos4_element" >Demais serviços </li>
         </ul>
       </div>
     </section>

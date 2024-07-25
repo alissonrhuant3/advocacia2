@@ -37,11 +37,11 @@ export default function Footer() {
         <div className="footerTitle">
           <div className="footerTitles">
             <h1 className="footerTitleLineOne">Marque uma consulta</h1>
-            <h1 className="footerTitleLineTwo">Sem vínculos, sem custo</h1>
+            <h1 className="footerTitleLineTwo">Faça seu orçamento</h1>
           </div>
         </div>
 
-        <div className="footerFormulario">
+        <div className="footerFormulario pt-4">
           <div className="footerInputsRow">
             <input onChange={(e) => setFirstName(e.target.value)} className="footerInput" type="text" placeholder="Primeiro Nome" />
             <input onChange={(e) => setLastName(e.target.value)} className="footerInput" type="text" placeholder="Segundo Nome" />

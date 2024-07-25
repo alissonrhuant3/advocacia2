@@ -1,6 +1,6 @@
 .section2 {
     height: auto;
-    min-height: 1081px;
+    min-height: 1200px;
     background-color: #0E0D0C;
 }
 
@@ -20,4 +20,5 @@
 
 #section2titulo {
     margin-top: 35px;
+    font-size: 32px;
 }

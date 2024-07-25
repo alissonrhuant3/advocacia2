@@ -9,11 +9,11 @@ export default function WhyIngrid() {
       </div>
 
       <div className="section4_row">
-        <span className='section4_component'>DEDICAÇÃO TOTAL</span>
+        <span className='section4_component'>ADVOCACIA HUMANIZADA</span>
         <span className='section4_component section4_separator'></span>
-        <span className='section4_component'>EMPATIA</span>
+        <span className='section4_component'>RELATÓRIO DE ACOMPANHAMENTO</span>
         <span className='section4_component section4_separator'></span>
-        <span className='section4_component'>CONSULTA GRATIS</span>
+        <span className='section4_component'>CLIENTE, NOSSA PRIORIDADE</span>
       </div>
 
       <div className="section4_row">
